@@ -1,0 +1,8 @@
+{
+  "name": "com.flush.flush-tools",
+  "version": "0.1.0",
+  "displayName": "Flush Tools",
+  "description": "Tools developed during creating of small mobile games that have been abstracted for further development purposes.",
+  "unity": "2020.2",
+  "type": "tool"
+}
