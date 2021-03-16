@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Flushed.GameFlow.UI
+namespace Vocario.GameFlow.UI
 {
     public class UIManagerBehaviour : ContextMonoBehaviour
     {

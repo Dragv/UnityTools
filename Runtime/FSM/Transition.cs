@@ -1,7 +1,7 @@
 using System;
 
-namespace Flush.FSM
-{    
+namespace Vocario.FSM
+{
     public class Transition
     {
         public Func<bool> Condition { get; }

@@ -1,4 +1,4 @@
-namespace Flush.Scriptable
+namespace Vocario.Scriptable
 {
     public class RefT<T> : UnityEngine.ScriptableObject
     {

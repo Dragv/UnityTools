@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Flushed.GameFlow.UI;
+using Vocario.GameFlow.UI;
 using UnityEngine;
 
-namespace Flushed.GameFlow
+namespace Vocario.GameFlow
 {
     public class GameContext : ScriptableObject
     {

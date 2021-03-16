@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Flushed.GameFlow
+namespace Vocario.GameFlow
 {
     [RequireComponent(typeof(PlayerInput))]
     public class PlayerControllerBehaviour : ContextMonoBehaviour

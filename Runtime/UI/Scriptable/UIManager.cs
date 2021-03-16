@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Flushed.GameFlow.UI
+namespace Vocario.GameFlow.UI
 {
     public class UIManager : ScriptableObject
     {

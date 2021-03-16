@@ -1,4 +1,4 @@
-namespace Flushed.GameFlow
+namespace Vocario.GameFlow
 {
     public class PlayerPawnBehaviour : ContextMonoBehaviour
     {

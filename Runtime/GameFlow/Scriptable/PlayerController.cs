@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Flushed.GameFlow
+namespace Vocario.GameFlow
 {
     public class PlayerController : ScriptableObject
     {

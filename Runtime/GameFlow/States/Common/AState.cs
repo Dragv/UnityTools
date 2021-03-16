@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Flushed.GameFlow
+namespace Vocario.GameFlow
 {
     public abstract class AState : ScriptableObject
     {

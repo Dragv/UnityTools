@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Flushed.GameFlow.UI
+namespace Vocario.GameFlow.UI
 {
     public interface IUIScreen
     {
