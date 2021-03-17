@@ -1,11 +1,11 @@
 {
   "name": "com.vocario.tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "Vocario Tools",
   "description": "Tools developed during development of small mobile games that have been abstracted for further development purposes.",
   "unity": "2020.2",
   "dependencies": {
-    "com.unity.inputsystem": "1.0.3"
+    "com.unity.inputsystem": "1.0.2"
   },
   "type": "tool"
 }
