@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Vocario.GameFlow
 {
-    public class PlayerController : ScriptableObject
+    public abstract class APlayerController : ScriptableObject
     {
         [HideInInspector]
         public PlayerControllerBehaviour ControllerBehaviour = null;

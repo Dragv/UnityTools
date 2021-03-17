@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 namespace Vocario.GameFlow
 {
     [RequireComponent(typeof(PlayerInput))]
-    public class PlayerControllerBehaviour : ContextMonoBehaviour
+    public abstract class APlayerControllerBehaviour : ContextMonoBehaviour
     {
         protected PlayerInput _playerInput = null;
         protected PlayerPawnBehaviour _playerPawnBehaviour = null;

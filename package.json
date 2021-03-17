@@ -5,7 +5,7 @@
   "description": "Tools developed during development of small mobile games that have been abstracted for further development purposes.",
   "unity": "2020.2",
   "dependencies": {
-    "com.unity.inputsystem": "1.0.2"
+    "com.unity.inputsystem": "1.0.3"
   },
   "type": "tool"
 }

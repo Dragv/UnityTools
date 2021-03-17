@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Vocario.GameFlow
 {
-    public class GameContext : ScriptableObject
+    public abstract class AGameContext : ScriptableObject
     {
         [SerializeField]
         protected UIManager _UIManager = null;
