@@ -12,7 +12,7 @@ namespace Vocario.GameFlow
         protected UIManager _UIManager = null;
 
         [SerializeField]
-        protected PlayerController _playerController = null;
+        protected APlayerController _playerController = null;
 
         [SerializeField]
         protected AState _currentState = null;
@@ -24,7 +24,7 @@ namespace Vocario.GameFlow
         protected Dictionary<Type, AState> _allowedStates = null;
 
         public UIManager UIManager { get => _UIManager; }
-        public PlayerController PlayerController { get => _playerController; }
+        public APlayerController APlayerController { get => _playerController; }
 
         protected virtual void OnValidate()
         {

@@ -6,6 +6,6 @@ namespace Vocario.GameFlow
     {
         [Header("Context")]
         [SerializeField]
-        protected GameContext _context = null;
+        protected AGameContext _context = null;
     }
 }

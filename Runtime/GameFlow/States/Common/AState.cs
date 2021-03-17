@@ -9,7 +9,7 @@ namespace Vocario.GameFlow
     public abstract class AState : ScriptableObject
     {
         [SerializeField]
-        protected GameContext _context = null;
+        protected AGameContext _context = null;
         [SerializeField]
         protected AState[] _states = null;
 

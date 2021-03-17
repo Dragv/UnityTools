@@ -7,16 +7,16 @@ namespace Vocario.GameFlow
     public abstract class APlayerControllerBehaviour : ContextMonoBehaviour
     {
         protected PlayerInput _playerInput = null;
-        protected PlayerPawnBehaviour _playerPawnBehaviour = null;
+        protected APlayerPawnBehaviour _playerPawnBehaviour = null;
 
         protected virtual void Awake()
         {
             if (_context != null)
             {
-                _context.PlayerController.ControllerBehaviour = this;
+                _context.APlayerController.ControllerBehaviour = this;
             }
 
-            _playerPawnBehaviour = GetComponent<PlayerPawnBehaviour>();
+            _playerPawnBehaviour = GetComponent<APlayerPawnBehaviour>();
             _playerInput = GetComponent<PlayerInput>();
         }
 
